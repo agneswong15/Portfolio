@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+display: inline-block;
+background: rgba(0,0,0,0.6);
+    width:100%;
+    opacity:0.6;
+    position:fixed;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: maroon;
+}
+.active {
+  background: rgba(255,255,255,0.3);
+}
+
+.portion{
+  background-image: url("http://www.doggiestayedhome.com/wp-content/uploads/2014/04/dog-alone-pier.jpg");
+  background-size: 100% 100%;
+  background-position: center center;
+    height:750px;
+    background-attachment: fixed
+}
+
+.info{
+  background-color: white;
+    padding: 3em 40%;
+}
+h1{
+  font-family: 'Courier New', monospaced;
+  font-size: 80px;
+  color: black;
+  text-shadow:0px 1px 0px #f2c4eb;
+  left: 50%;
+  top: 50%;
+  margin-top: -15px;
+  margin-left: -250px;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+}
